@@ -1,0 +1,108 @@
+.my-pets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.my-pets-header a {
+  text-decoration: none;
+  background-color: #16479d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid #16479d;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.my-pets-header a:hover {
+  background-color: transparent;
+  color: #16479d;
+}
+
+.my-pets-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-pets-row {
+  border-bottom: 1px solid #16479d;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.my-pets-row img {
+  margin-right: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.actions {
+  display: flex;
+  margin-left: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.actions a,
+.actions button {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-button,
+.dashboard-link {
+  color: #16479d;
+  background-color: #fff;
+  border: 2px solid #16479d;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 0.7rem 4rem;
+}
+
+.conclude-adoption-button {
+  color: #25b456;
+  background-color: #fff;
+  border: 2px solid #25b456;
+}
+
+.cancel-visit-button {
+  color: #e74c3c;
+  background-color: #fff;
+  border: 2px solid #e74c3c;
+}
+
+.dashboard-button:hover,
+.dashboard-link:hover {
+  color: #fff;
+  background-color: #16479d;
+}
+
+.conclude-adoption-button:hover {
+  color: #fff;
+  background-color: #25b456;
+}
+
+.cancel-visit-button:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.contacts {
+  margin-left: 2rem;
+}
+
+.contacts p {
+  margin-bottom: 1rem;
+}
+
+.actions p {
+  margin-right: 0.5rem;
+}

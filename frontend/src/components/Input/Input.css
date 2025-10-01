@@ -1,0 +1,21 @@
+.input-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-control label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.input-control input {
+  padding: 0.6rem;
+  border: 1px solid #777;
+  border-radius: 8px;
+}
+
+.input-control input::placeholder {
+  color: #7b7b7b;
+}

@@ -1,0 +1,14 @@
+#container {
+  min-height: 73.5vh;
+  padding: 1rem 2rem 3rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#app-message-container {
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

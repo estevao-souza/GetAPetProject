@@ -1,0 +1,14 @@
+.pet-images-preview {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.pet-images-preview img {
+  width: 12rem;
+  height: 12rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

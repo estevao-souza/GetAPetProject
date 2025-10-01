@@ -1,0 +1,20 @@
+.pet-details {
+  text-align: center;
+}
+
+.pet-details-header {
+  margin-bottom: 2rem;
+}
+
+.pet-details-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-details-photos img {
+  max-height: 13rem;
+  margin: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
